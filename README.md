@@ -1,5 +1,5 @@
 ## Project Goal
-The goal is to create a poker platform that is completely trustless and decentralized. Using [Ethereum](https://ethereum.org), [Waku](https://status.im), [IPFS](https://ipfs.org), ZKP technos like [Circom](https://github.com/iden3/circom/blob/master/TUTORIAL.md) and possibly others like Swarm, NuCypher,...
+The goal is to create a poker platform that is completely trustless and decentralized. Using [Ethereum](https://ethereum.org), [VAC](https://vac.dev/), [IPFS](https://ipfs.org), ZKP technos like [Circom](https://github.com/iden3/circom/blob/master/TUTORIAL.md) and possibly others like Swarm, NuCypher,...
 
 
 This project was bootstrapped with [Create Eth App](https://github.com/paulrberg/create-eth-app).

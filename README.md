@@ -5,7 +5,7 @@ The goal is to create a poker platform that is completely trustless and decentra
 When designing a project that uses a blockchain as the backend of the application there are some constraints on speed, confidentiality and the cost (tx fees) of doing so. To that end, one overarching design constraint will be to minimize the write operations to the blockchain.
 
 ### Card shuffling and security ###
-In order to have a poker software that cannot be gamed, the card shuffling needs to be done in a manner that cannot be eavesdropped on. It this were to be done on a blockchain it would be observable (with some exceptions like [Secret Network](https://scrt.network/), thus would not be secure. To avoid this issue, we can use the concept of mental poker, which uses requires the players to communicate via p2p (WAKU) and each shuffle and encrypt the deck.
+In order to have a poker software that cannot be gamed, the card shuffling needs to be done in a manner that cannot be eavesdropped on. It this were to be done on a blockchain it would be observable (with some exceptions like [Secret Network](https://scrt.network/), thus would not be secure. To avoid this issue, we can use the concept of [mental poker](https://en.wikipedia.org/wiki/Mental_poker), which uses requires the players to communicate via p2p (WAKU) and each shuffle and encrypt the deck.
 
 ### Poker game information source of truth
 When cards and chip counts are all handled by p2p communication, how can you prevent one of the participants from injecting false information (with the intention of skewing the game to their advantage) in the game? By clever use of crypographic commitments we can always prove what happened. 

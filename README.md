@@ -2,7 +2,7 @@
 The goal is to create a poker platform that is completely trustless and decentralized. Using [Ethereum](https://ethereum.org), [WAKU](https://our.status.im/v1-2-release/), [IPFS](https://ipfs.org), ZKP technos like [Circom](https://github.com/iden3/circom/blob/master/TUTORIAL.md) and possibly others like Swarm, NuCypher,...
 
 ## Project design
-When desighing a project that uses a blockchain as the backend of the application there are some constraints on speed, confidentiality and the cost (tx fees) of doing so.
+When designing a project that uses a blockchain as the backend of the application there are some constraints on speed, confidentiality and the cost (tx fees) of doing so.
 
 ### Card shuffling and security ###
 In order to have a poker software that cannot be gamed, the card shuffling needs to be done in a manner that cannot be eavesdropped on. It this were to be done on a blockchain it would be observable (with some exceptions like [Secret Network](https://scrt.network/), thus would not be secure. To avoid this issue, we can use the concept of mental poker, which uses requires the players to communicate via p2p (WAKU) and each shuffle and encrypt the deck.

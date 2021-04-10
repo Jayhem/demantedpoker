@@ -8,7 +8,7 @@ When designing a project that uses a blockchain as the backend of the applicatio
 In order to have a poker software that cannot be gamed, the card shuffling needs to be done in a manner that cannot be eavesdropped on. It this were to be done on a blockchain it would be observable (with some exceptions like [Secret Network](https://scrt.network/), thus would not be secure. To avoid this issue, we can use the concept of mental poker, which uses requires the players to communicate via p2p (WAKU) and each shuffle and encrypt the deck.
 
 ### Poker game information source of truth
-When cards and chip counts are all handled by p2p communication, how can you prevent one of the participants from injecting false information (with the intention of skewing the game to their advantage) in the game? By clever use of crypographic comittments we can always prove what happened. 
+When cards and chip counts are all handled by p2p communication, how can you prevent one of the participants from injecting false information (with the intention of skewing the game to their advantage) in the game? By clever use of crypographic commitments we can always prove what happened. 
 The only time one would need to store data on the blockchain would be when there is loss of communication between the players.
 
 This project was bootstrapped with [Create Eth App](https://github.com/paulrberg/create-eth-app).
